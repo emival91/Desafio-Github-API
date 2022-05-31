@@ -71,8 +71,7 @@ const Search = () => {
       </div>
  
       {isLoading ? <ResultCardLoader /> : profile && (
-          <div className="line row">
-            
+          <div className="line row">            
             <div className="imagem col-sm-12 col-md-3">
             <img src={profile.avatar_url} alt={profile.name} />
             </div>                    
